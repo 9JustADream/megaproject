@@ -1,0 +1,63 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.boosts {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+}
+.aqua{
+    cursor: pointer;
+    width: 85%;
+}
+
+body{
+    background-color: palegreen;
+}
+
+.boost{
+    cursor: pointer;
+    background-color: 0FB8F0 ;
+}
+
+.st{
+    border: 1px outset black;
+    background-color: 50AF7B ;
+    border-radius: 20px;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    display: block;
+    padding-top: 20px;
+}
+
+.did{
+    border: 1px outset black;
+    background-color: 0FB8F0 ;
+    border-radius: 20px;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    display: block;
+    padding-top: 20px;
+}
